@@ -5,7 +5,7 @@ const AboutMe = () => {
     <div className="h-screen flex justify-center items-center relative">
       <h2 className="absolute text-white 3xl z-10 left-[150px] top-[100px] font-semibold text-4xl">Acerca de mi</h2>
       <div className="w-[80%] h-[60%] mx-auto grid grid-cols-2 justify-items-center items-center" >
-        <div className="text-white h-[50vh] w-[80%] mx-autop py-10 flex flex-col justify-around">
+        <div className="text-white h-[50vh] w-[80%] mx-auto py-10 flex flex-col justify-around">
           <p>
             Desarrollador front end autodidacta en busca de su primer
             oportunidad laboral, me encanta aprende y llevarlo a la practica me
