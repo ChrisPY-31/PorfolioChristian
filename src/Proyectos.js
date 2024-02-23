@@ -1,43 +1,37 @@
+import tvMovies from './Images/TvMovies2.png'
 const proyectos = [
     {
         title:'Grano de Oro',
+        backEnd:'BackEnd',
         description:'',
         image:'',
         technologies:['JavaScript' , 'React' , 'Redux','Express','Sequelize','Node'],
         deploid:{
-            gitHud:'',
-            deploy:'',
+            gitHud:'https://github.com/ProyectoFinalHenry/Frontend',
+            deploy:'https://granodeoro.vercel.app/',
         }
     },
     {
         title:'TvPeliculas',
+        fronEnd:'FronEnd',
         description:'',
-        image:'',
-        technologies:['JavaScript', 'Tailwind' , 'React' , 'Redux'],
+        image:`${tvMovies}`,
+        technologies:['JavaScript', 'Tailwind' , 'React' , 'Redux', 'TypeScript'],
         deploid:{
-            gitHud:'',
+            gitHud:'https://github.com/ChrisPY-31/TvMovies',
             deploy:'',
         }
     },
     {
         title:'Video Games',
+        backEnd:'BackEnd',
         description:'',
         technologies:['JavaScript' , 'React' , 'Redux','Express','Sequelize','Node'],
         image:'',
         deploid:{
-            gitHud:'',
+            gitHud:'https://github.com/ChrisPY-31/Aplicacion_Videogames/tree/master/PI-Videogames-main',
             deploy:'',
         }
     },
-    {
-        title:'Control de Gastos',
-        description:'',
-        technologies:['JavaScript', 'React', 'Css'],
-        image:'',
-        deploid:{
-            gitHud:'',
-            deploy:'',
-        }
-    },
-
+    
 ]
