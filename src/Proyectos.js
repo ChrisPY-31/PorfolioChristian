@@ -2,8 +2,8 @@ import tvMovies from './Images/TvMovies2.png'
 const proyectos = [
     {
         title:'Grano de Oro',
-        backEnd:'BackEnd',
-        description:'',
+        subtitle:['Back-End', 'Front-End'],
+        description:'E-commerce para la venta de cafe. este proyecto tuvo la finalidad de poner en practica todos nuestro conocimientos para enfrentar los desafios que podemos entrentar a futuro en una empresa simulando un ambiente laboral y colaboracion con un equipo de trabajo',
         image:'',
         technologies:['JavaScript' , 'React' , 'Redux','Express','Sequelize','Node'],
         deploid:{
@@ -13,7 +13,7 @@ const proyectos = [
     },
     {
         title:'TvPeliculas',
-        fronEnd:'FronEnd',
+        subtitle:['Front-End'],
         description:'',
         image:`${tvMovies}`,
         technologies:['JavaScript', 'Tailwind' , 'React' , 'Redux', 'TypeScript'],
@@ -24,7 +24,7 @@ const proyectos = [
     },
     {
         title:'Video Games',
-        backEnd:'BackEnd',
+        subtitle:['Back-End','Front-End'],
         description:'',
         technologies:['JavaScript' , 'React' , 'Redux','Express','Sequelize','Node'],
         image:'',
