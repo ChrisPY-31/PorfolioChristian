@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
-        <p>Creado en 2024 por Christian Peña</p>
-        
+        <h2>Contacto</h2>
+        <p>Si te ha llamado mi portafolio y deseas contactarme para cualquier trabajo a futuro puedes contactarme por medio de estos links </p>
     </footer>
   )
 }

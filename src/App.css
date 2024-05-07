@@ -2,3 +2,12 @@
   backdrop-filter: blur(10px);
 
 }
+body{
+  background-color: Canvas;
+  color: CanvasText;
+  color-scheme: light dark;
+  background-image: url(./Images/fondo__image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

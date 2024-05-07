@@ -1,10 +1,11 @@
 import tvMovies from './Images/TvMovies2.png'
+import granoDeOro from './Images/Grano-De-Oro'
 const proyectos = [
     {
         title:'Grano de Oro',
         subtitle:['Back-End', 'Front-End'],
         description:'E-commerce para la venta de cafe. este proyecto tuvo la finalidad de poner en practica todos nuestro conocimientos para enfrentar los desafios que podemos entrentar a futuro en una empresa simulando un ambiente laboral y colaboracion con un equipo de trabajo',
-        image:'',
+        image:`${granoDeOro}`,
         technologies:['JavaScript' , 'React' , 'Redux','Express','Sequelize','Node'],
         deploid:{
             gitHud:'https://github.com/ProyectoFinalHenry/Frontend',
