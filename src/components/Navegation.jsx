@@ -40,7 +40,7 @@ const Navegation = () => {
     }
   }
   return (
-    <nav className=" fixed w-full  z-50">
+    <nav className=" fixed w-full contenedor  z-50">
       <div className="w-[80%] mx-auto py-5 flex justify-between text-white">
         <h3>Christian Logo</h3>
         <div >
