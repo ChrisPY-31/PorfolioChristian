@@ -2,9 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer>
-        <h2>Contacto</h2>
-        <p>Si te ha llamado mi portafolio y deseas contactarme para cualquier trabajo a futuro puedes contactarme por medio de estos links </p>
+    <footer className=' text-center pt-10 pb-2 text-white'>
+        <h4>Esta pagina esta creada con mucho {'<3'} por Christian Peña Yañez</h4>
     </footer>
   )
 }
