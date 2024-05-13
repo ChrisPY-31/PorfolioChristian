@@ -1,27 +1,18 @@
 import React from "react";
+import ImagenLogo from '../Images/TvMovies2.png'
 
 const Inicio = () => {
   return (
-    <main className="h-[90vh] flex justify-center items-center">
-      <div className="w-[80%] mx-auto h-[70%] flex justify-between gap-10">
-        <div className="w-[50%] text-white">
-          <div className="w-[80%] mx-auto py-28 flex flex-col justify-around items-start h-[100%]">
-            <h1 className="text-[50px] font-bold font-[roboto]">
-              Front-End Developer
-            </h1>
-            <h3 className="text-[30px] font-semibold">Christian Peña Yañez</h3>
-            <p>
-              Programador en busca de una oportunidad de trabajo que me permita
-              crecer como programador{" "}
-            </p>
-            <button className="bg-blue-400 py-2 rounded-md px-2">
-              Descargar curriculum
-            </button>
+    <main className="h-[95vh] flex justify-center items-center">
+      <div className="w-[80%] mx-auto grid grid-cols-2 gap-10 mt-20 ">
+        <img src={`${ImagenLogo}`} className="w-[750px] h-[350px] rounded-2xl" alt="" />
+        <div className="text-white flex flex-col justify-around py-3">
+          <h1 className="text-5xl font-[Lato] font-[700] w-[60%] leading-[1.2]">Hey there! I'm Christian Peña Yañez</h1>       
+          <p className="font-[Roboto] font-[300]">I´m programador Front end in Globant with a passion for creating thoughtful, intuitive experiences </p>
+          <div className="flex gap-4">
+            <a className="py-2 px-9 bg-[#333333] font-[Roboto] font-[400] rounded-xl">Linkedin</a>
+            <a className="py-2 px-9 bg-indigo-600  rounded-xl font-[Roboto] font-[400]">Descargar curriculum</a>
           </div>
-        </div>
-
-        <div className="w-[50%] h-[100%] flex justify-center items-center">
-          <h2 className="bg-red-300 w-[80%] h-[80%]">Foto</h2>
         </div>
       </div>
     </main>
