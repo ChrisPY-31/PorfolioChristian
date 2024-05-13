@@ -15,25 +15,25 @@ const Navegation = () => {
     }
     if (index === 1) {
       window.scroll({
-        top: 735,
+        top: 600,
         behavior: "smooth",
       });
     }
     if (index === 2) {
       window.scroll({
-        top: 1469,
+        top: 1125,
         behavior: "smooth",
       });
     }
     if (index === 3) {
       window.scroll({
-        top: 2519,
+        top: 1925,
         behavior: "smooth",
       });
     }
     if (index === 4) {
       window.scroll({
-        top: 3000,
+        top: 2500,
         behavior: "smooth",
       });
     }
@@ -41,12 +41,12 @@ const Navegation = () => {
   return (
     <nav className=" fixed w-full contenedor z-50 ">
       <div className="w-[80%] mx-auto py-5 flex justify-between text-white border-b-2 px-5">
-        <h2>Christian Peña Yañez</h2>
+        <h2 className="font-[Roboto] font-[700] text-xl">Christian Peña Yañez</h2>
         <div className="flex gap-8">
-          <ul className="flex gap-8 cursor-pointer">
+          <ul className="flex gap-8 cursor-pointer font-[Roboto] font-[400]">
             <li onClick={() => handleClick(0)}>Home</li>
-            <li onClick={() => handleClick(1)}>Proyectos</li>
-            <li onClick={() => handleClick(2)}>Sobre mi </li>
+            <li onClick={() => handleClick(1)}>Sobre mi </li>
+            <li onClick={() => handleClick(2)}>Proyectos</li>
             <li onClick={() => handleClick(3)}>Tecnologias</li>
             <li onClick={() => handleClick(4)}>Contacto</li>
           </ul>
