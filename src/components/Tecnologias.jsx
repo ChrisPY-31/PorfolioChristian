@@ -13,32 +13,54 @@ import { BiLogoPostgresql } from "react-icons/bi";
 
 const Tecnologias = () => {
   return (
-    <section className="h-[90vh] ">
-      <div className="w-[80%] mx-auto h-full text-white">
-        <h2 className=" text-white 3xl z-10 left-[150px] top-[100px] font-semibold text-4xl">
-          Tecnologias
-        </h2>
-        <div className="grid grid-cols-2 justify-items-center h-full gap-10 items-center w-[80%] mx-auto ">
-          <div className="rounded-lg bg-[#0b0b13] w-[90%] h-[65%] py-3">
-            <p className="text-center text-4xl font-medium">Front end</p>
-            <div className="w-[85%] mx-auto grid grid-cols-3 justify-items-center items-center min-h-[90%] text-[#24b8b8e6]">
-              <FaHtml5 className="h-14 w-14  "/>
-              <FaCss3Alt className="h-14 w-14 " />
-              <IoLogoJavascript className="h-14 w-14" />
-              <SiTypescript className="h-14 w-14"/>
-              <FaReact className="h-14 w-14"/>
-              <SiRedux className="h-14 w-14"/>
-              <SiTailwindcss className="h-14 w-14"/>
-            </div>
+    <section className="min-h-[90vh] flex flex-col justify-center items-center">
+      <div className="w-[80%] mx-auto h-full text-white   ">
+        <h2 className="text-white font-bold text-4xl ">Tecnologias que manejo</h2>
+        <div className="tecnologias  justify-normal gap-5 mt-8 w-[90%] mx-auto">
+          <div className=" h-[150px] p-2  bg-[#334D66] rounded-lg">
+            <FaHtml5></FaHtml5>
+            <h4>HTML</h4>
+            <span>Lenguaje JavaScript</span>
           </div>
-          <div className="bg-[#0b0b13] rounded-lg w-full h-[65%] py-3">
-            <p className="text-center text-4xl font-medium">Back end</p>
-            <div className="w-[85%] mx-auto grid grid-cols-3 justify-items-center items-center min-h-[90%] text-[#24b8b8e6]">
-              <SiExpress className="h-14 w-14"/>
-              <SiSequelize className="h-14 w-14" />
-              <FaNode className="h-14 w-14"/>
-              <BiLogoPostgresql className="h-14 w-14"/>
-            </div>
+          <div className=" h-[150px] p-2  bg-[#334D66] rounded-lg">
+            <FaCss3Alt/>
+            <h4>CSS</h4>
+            <span>Lenguaje JavaScript</span>
+          </div>
+          <div className=" h-[150px] p-2  bg-[#334D66] rounded-lg">
+            <IoLogoJavascript/>
+            <h4>JAVACRIPT</h4>
+            <span>Lenguaje JavaScript</span>
+          </div>
+          <div className=" h-[150px] p-2  bg-[#334D66] rounded-lg">
+            <FaReact/>
+            <h4>REACT</h4>
+            <span>Lenguaje JavaScript</span>
+          </div>
+          <div className="h-[150px] p-2  bg-[#334D66] rounded-lg">
+            <p>image</p>
+            <h4>REDUX</h4>
+            <span>Lenguaje JavaScript</span>
+          </div>
+          <div className=" h-[150px] p-2  bg-[#334D66] rounded-lg">
+            <FaNode/>
+            <h4>NODE.JS</h4>
+            <span>Lenguaje JavaScript</span>
+          </div>
+          <div className="h-[150px] p-2  bg-[#334D66] rounded-lg">
+            <p>image</p>
+            <h4>TYPESCRIPT</h4>
+            <span>Lenguaje JavaScript</span>
+          </div>
+          <div className="h-[150px] p-2  bg-[#334D66] rounded-lg">
+            <p>image</p>
+            <h4>EXPREESS</h4>
+            <span>Lenguaje JavaScript</span>
+          </div>
+          <div className="h-[150px] p-2  bg-[#334D66] rounded-lg">
+            <p>image</p>
+            <h4>POSGRESS</h4>
+            <span>Lenguaje JavaScript</span>
           </div>
         </div>
       </div>
