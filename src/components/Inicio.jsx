@@ -5,8 +5,8 @@ import Mode from "./Mode";
 const Inicio = ({ theme, handleChangeTheme }) => {
   return (
     <main
-      className="h-[95vh] flex justify-center items-center max-sm:items-start max-sm:h-[60vh]
-    max-sm:block
+      className="h-[95vh] flex justify-center items-center max-sm:items-start max-sm:h-[50vh]
+    max-sm:block max-lg:h-[55vh]  
     "
     >
       <h2 className="dark:text-white text-5xl font-[Lato] font-[900] max-sm:text-2xl max-sm:text-center hidden max-sm:block pt-2">
@@ -15,20 +15,21 @@ const Inicio = ({ theme, handleChangeTheme }) => {
       <div className="md:hidden absolute right-2 top-2.5">
         <Mode theme={theme} handleChangeTheme={handleChangeTheme} />
       </div>
-      <div className="w-[80%] mx-auto grid grid-cols-2 gap-10 mt-20 max-sm:grid-cols-1 max-sm:justify-items-center max-sm:mt-5 max-sm:w-[90%] max-sm:gap-1">
+      <div className="w-[70%] mx-auto grid grid-cols-2 gap-10 mt-20 max-sm:grid-cols-1 max-sm:justify-items-center max-sm:mt-5 max-lg:w-[90%] max-sm:gap-1 max-md:mt-0 max-lg:grid-cols-[300px,1fr] max-md:grid-cols-[200px,1fr]">
         <img
           src={`${ImagenLogo}`}
-          className="w-[750px] h-[350px] rounded-2xl max-sm:rounded-full max-sm:w-[150px] max-sm:h-[150px]"
+          className="w-[750px] h-[350px] rounded-2xl max-sm:rounded-full max-sm:w-[150px] max-sm:h-[150px] max-md:w-[220px] max-md:h-[220px] max-lg:h-[250px] " 
           alt=""
         />
-        <div className="dark:text-white flex flex-col justify-around py-3 ">
+        <div className="dark:text-white flex flex-col justify-around py-3  max-md:py-0">
           <h1
             className="text-5xl font-[Lato] font-[700] w-[60%] leading-[1.2] max-sm:hidden
-        "
+            max-lg:text-3xl max-md:w-full
+            "
           >
             Hey there! I'm Christian Peña Yañez
           </h1>
-          <h1 className="text-center md:hidden font-[Roboto] font-[700] text-xl ">
+          <h1 className="max-sm:text-center md:hidden font-[Roboto] font-[700] text-xl max-md:text-start">
             Christian Peña Yañez
           </h1>
           <p className="font-[Roboto] font-[300] max-sm:my-2">
