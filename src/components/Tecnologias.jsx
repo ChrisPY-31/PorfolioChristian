@@ -20,81 +20,81 @@ const Tecnologias = () => {
           Tecnologias
         </h2>
         <div className="tecnologias  justify-normal gap-5 mt-8 w-[90%] mx-auto ">
-          <div className=" h-[150px] p-3  bg-[#1a2123] border-[#333c43] border-2 rounded-lg">
+          <div className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] border-2 shadow-lg rounded-lg text-black dark:text-white">
             <FaHtml5 className="text-3xl"></FaHtml5>
             <div className="mt-2">
-              <h4>HTML</h4>
-              <span className="text-[#848486]">Lenguaje JavaScript</span>
+              <h4 className="font-[Roboto] font-[400]">HTML</h4>
+              <span className="text-[#9f9fa8]">lenguajes de marcas hipertexto</span>
             </div>
           </div>
-          <div className=" h-[150px] p-3  bg-[#1a2123] border-[#333c43] border-2 rounded-lg">
+          <div className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] border-2 shadow-lg rounded-lg text-black dark:text-white">
             <FaCss3Alt className="text-3xl" />
             <div className="mt-2">
-              <h4>CSS</h4>
-              <span>Lenguaje JavaScript</span>
+              <h4 className="font-[Roboto] font-[400]">CSS</h4>
+              <span className="text-[#9f9fa8]">Lenguaje de diseño gráfico </span>
             </div>
           </div>
-          <div className=" h-[150px] p-3 bg-[#1a2123] border-[#333c43] border-2  rounded-lg">
+          <div className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] border-2 shadow-lg rounded-lg text-black dark:text-white">
             <SiTailwindcss className="text-3xl" />
             <div className="mt-2">
-              <h4>TAILWIND CSS</h4>
-              <span>Lenguaje JavaScript</span>
+              <h4 className="font-[Roboto] font-[400]">TAILWIND CSS</h4>
+              <span className="text-[#9f9fa8]">framework de CSS</span>
             </div>
           </div>
-          <div className=" h-[150px] p-3  bg-[#1a2123] border-[#333c43] border-2 rounded-lg">
+          <div className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] border-2 shadow-lg rounded-lg text-black dark:text-white">
             <IoLogoJavascript className="text-3xl" />
             <div className="mt-2">
-              <h4>JAVACRIPT</h4>
-              <span>Lenguaje JavaScript</span>
+              <h4 className="font-[Roboto] font-[400]">JAVACRIPT</h4>
+              <span className="text-[#9f9fa8]">Lenguaje javaScript</span>
             </div>
           </div>
-          <div className=" h-[150px] p-3  bg-[#1a2123] border-[#333c43] border-2  rounded-lg">
+          <div className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] border-2 shadow-lg rounded-lg text-black dark:text-white">
             <FaReact className="text-3xl" />
             <div className="mt-2">
-              <h4>REACT</h4>
-              <span>Lenguaje JavaScript</span>
+              <h4 className="font-[Roboto] font-[400]">REACT</h4>
+              <span className="text-[#9f9fa8]">Bibloteca de javaScript</span>
             </div>
           </div>
-          <div className="h-[150px] p-3  bg-[#1a2123] border-[#333c43] border-2  rounded-lg">
+          <div className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] border-2 shadow-lg rounded-lg text-black dark:text-white">
             <SiRedux className="text-3xl" />
             <div className="mt-2">
-              <h4>REDUX</h4>
-              <span>Lenguaje JavaScript</span>
+              <h4 className="font-[Roboto] font-[400]">REDUX</h4>
+              <span className="text-[#9f9fa8]">Manejo de estado </span>
             </div>
           </div>
-          <div className=" h-[150px] p-3  bg-[#1a2123] border-[#333c43] border-2  rounded-lg">
+          <div className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] border-2 shadow-lg rounded-lg text-black dark:text-white">
             <FaNode className="text-3xl" />
             <div className="mt-2">
-              <h4>NODE.JS</h4>
-              <span>Lenguaje JavaScript</span>
+              <h4 className="font-[Roboto] font-[400]">NODE.JS</h4>
+              <span className="text-[#9f9fa8]">Entorno de Ejecucion</span>
             </div>
           </div>
-          <div className="h-[150px] p-3  bg-[#1a2123] border-[#333c43] border-2  rounded-lg">
+          <div className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] border-2 shadow-lg rounded-lg text-black dark:text-white">
             <SiTypescript className="text-3xl" />
             <div className="mt-2">
-              <h4>TYPESCRIPT</h4>
-              <span>Lenguaje JavaScript</span>
+              <h4 className="font-[Roboto] font-[400]">TYPESCRIPT</h4>
+              <span className="text-[#9f9fa8]">Agrega funcionalidad a javaScript</span>
             </div>
           </div>
-          <div className="h-[150px] p-3  bg-[#1a2123] border-[#333c43] border-2  rounded-lg">
+          <div className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] border-2 shadow-lg rounded-lg text-black dark:text-white">
             <SiExpress className="text-3xl" />
             <div className="mt-2">
-              <h4>EXPRESS</h4>
-              <span>Lenguaje JavaScript</span>
+              <h4 className="font-[Roboto] font-[400]">EXPRESS</h4>
+              <span className="text-[#9f9fa8]">Web framework para Node.js</span>
             </div>
           </div>
-          <div className="h-[150px] p-3  bg-[#1a2123] border-[#333c43] border-2  rounded-lg">
+          <div className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] border-2 shadow-lg rounded-lg text-black dark:text-white">
             <SiPostgresql className="text-3xl" />
             <div className="mt-2">
-              <h4>POSGRESS</h4>
-              <span>Lenguaje JavaScript</span>
+              <h4 className="font-[Roboto] font-[400]">POSTGRESQl</h4>
+              <span className="text-[#9f9fa8]">Bases de datos relaciona</span>
             </div>
           </div>
-          <div className="h-[150px] p-3  bg-[#1a2123] border-[#333c43] border-2  rounded-lg">
+          <div className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] border-2 shadow-lg rounded-lg text-black dark:text-white">
             <SiSequelize className="text-3xl" />
             <div className="mt-2">
-              <h4>SEQUELIZE</h4>
-              <span>Lenguaje JavaScript</span>
+              <h4 className="font-[Roboto] font-[400]">SEQUELIZE</h4>
+              <span className="text-[#9f9fa8]">Simplifica el proceso de creación</span>
             </div>
           </div>
         </div>
