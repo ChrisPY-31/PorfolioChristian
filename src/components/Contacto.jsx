@@ -43,16 +43,16 @@ const Contacto = () => {
             </div>
           </div>
           <div className="flex gap-8 ">
-            <div className="dark:bg-[rgb(26,33,35)] dark:border-[#333c43] dark:border-2  h-12 w-12 rounded-lg flex justify-center items-center shadow-md ">
-              <a href="https://www.linkedin.com/in/christianpeya01/">
-              <CiLinkedin className="text-2xl cursor-pointer" />
+            <div className="dark:bg-[rgb(26,33,35)] dark:border-[#333c43] dark:border-2  h-12 w-12 rounded-lg flex justify-center items-center shadow-md cursor-pointer">
+              <a href="https://www.linkedin.com/in/christianpeya01">
+              <CiLinkedin className="text-2xl " />
               </a>
             </div>
             <div>
               <p className="font-[Roboto] font-[700]">Linkedin</p>
               <a className="text-[#a7a8a9]" href="https://www.linkedin.com/in/christianpeya01/"
               target="_blank"
-              >Linkedin.com/Christianpeña</a>
+              >Linkedin.com/in/christianpeya01/</a>
             </div>
           </div>
           <div className="flex gap-8 ">
