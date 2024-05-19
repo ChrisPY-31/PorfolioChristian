@@ -1,105 +1,72 @@
 import React from "react";
-import imageMovie from '../Images/TvMovies2.png'
+import imageMovie from "../Images/TvMovies2.png";
+import { proyectos } from "../Proyectos";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants";
 
 const Proyectos = () => {
   return (
-    <section className="min-h-screen">
-      <div className="w-[80%] mx-auto">
-        <div className="py-4 ">
-          <h2 className=" text-5xl font-bold mb-6 text-white">Proyectos</h2>
-          <div className="flex h-[300px] mx-auto w-[80%] gap-5 justify-center items-center py-5">
-            <img
-              className="rounded-md w-[50%] h-56 object-cover"
-              src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt=""
-            />
-            <div className="flex flex-col justify-around h-full py-4 text-white">
-              <h3 className="text-xl">Grano de Oro</h3>
-              <p>
-                crud en el cual los permite visualizar el contenido del producto
-                comprar entre muchas otras funcionalidades
-              </p>
-              <div>
-                <h3>Tecnologias</h3>
-                <div className="flex gap-4">
-                  <p>tailwind</p>
-                  <p>React</p>
-                  <p>TypeScript</p>
+    <section className="min-h-[90vh]">
+      <div className="w-[80%] mx-auto h-full max-sm:w-[90%] max-lg:w-[90%]">
+        <motion.h2
+          variants={fadeIn("down", 0.2)}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: false, amount: 0.5 }}
+          className="text-5xl dark:text-white font-[Lato] font-[900] max-sm:text-2xl max-lg:text-center max-lg:text-3xl "
+        >
+          Proyectos
+        </motion.h2>
+        <div className="flex flex-col gap-10 h-full mt-10 w-[90%] mx-auto">
+          {proyectos.map((proyecto) => (
+            <motion.div
+              className="proyectos gap-5 "
+              variants={fadeIn("right", 0.2)}
+              initial={{ opacity: 0 }}
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+            >
+              <div className="dark:text-white flex flex-col justify-center gap-2">
+                <h3 className="font-[Lato] font-[700] text-xl">
+                  {proyecto.title}
+                </h3>
+                <div>
+                  {proyecto.subtitle.map((tecnologia) => (
+                    <span className="text-[#a7a8a9] font-[Roboto] font-[300]  ">
+                      {tecnologia}
+                    </span>
+                  ))}
+                </div>
+                <p className="font-[Roboto] font-[300] ">
+                  {proyecto.description}
+                </p>
+                <div className="flex gap-5 text-white max-sm:justify-center">
+                  <a
+                    className="py-2 px-9 rounded-md border-[#333c43] shadow-lg dark:text-white font-[Roboto] font-[400] dark:hover:bg-[#1a2123] max-md:px-5 dark:border-2 text-black"
+                    target="_blank"
+                    href={proyecto.deploid.gitHud}
+                  >
+                    Git Hub
+                  </a>
+                  <a
+                    className="py-2 px-9 rounded-md bg-[#1a2123] border-[#333c43]  
+                    border-2 dark:hover:bg-transparent font-[Roboto] font-[400] max-md:px-5"
+                    target="_blank"
+                    href={proyecto.deploid.deploy}
+                  >
+                    Deploy
+                  </a>
                 </div>
               </div>
-              <div className="flex justify-between gap-5 w-1/2">
-                <button className=" bg-red-400 w-full py-1.5 rounded-md">
-                  <a href="https://granodeoro.vercel.app/" target="_blank">Deployd</a>
-                </button>
-                <button className="bg-green-400 w-full rounded-md">
-                  <a href="https://github.com/ProyectoFinalHenry/Frontend">GitHub</a>
-                </button>
+              <div className="flex justify-center items-center max-sm:order-first">
+                <img
+                  src={proyecto.image}
+                  alt=""
+                  className="h-[200px] w-full rounded-xl "
+                />
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="py-4 ">
-          <div className="flex h-[300px] mx-auto w-[80%] gap-5 justify-center items-center py-5">
-            <div className="flex flex-col justify-around h-full py-4 text-white">
-              <h3 className="text-xl">VideoGames</h3>
-              <p>
-                crud en el cual los permite visualizar el contenido del producto
-                comprar entre muchas otras funcionalidades
-              </p>
-              <div>
-                <h3>Tecnologias</h3>
-                <div className="flex gap-4">
-                  <p>tailwind</p>
-                  <p>React</p>
-                  <p>TypeScript</p>
-                </div>
-              </div>
-              <div className="flex justify-between gap-5 w-1/2">
-                <button className=" bg-red-400 w-full py-1.5 rounded-md">
-                  Deploy
-                </button>
-                <a href="https://github.com/ChrisPY-31/Aplicacion_Videogames/tree/master/PI-Videogames-main">Git Hud</a>
-
-              </div>
-            </div>
-            <img
-              className="rounded-md w-[50%] h-56 object-cover"
-              src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt=""
-            />
-          </div>
-        </div>
-
-        <div className="flex h-[300px] mx-auto w-[80%] gap-5 justify-center items-center py-5">
-          <img
-            className="rounded-md w-[40%] h-56 object-cover cursor-pointer"
-            src={`${imageMovie}`}
-            alt=""
-          />
-          <div className="flex flex-col justify-around h-full py-4 text-white">
-            <h3 className="text-xl">Tv-Movies</h3>
-            <p>
-              crud en el cual los permite visualizar el contenido del producto
-              comprar entre muchas otras funcionalidades
-            </p>
-            <div>
-              <h3>Tecnologias</h3>
-              <div className="flex gap-4">
-                <p>tailwind</p>
-                <p>React</p>
-                <p>TypeScript</p>
-              </div>
-            </div>
-            <div className="flex justify-between gap-5 w-1/2">
-              <button className=" bg-red-400 w-full py-1.5 rounded-md">
-                Deploy
-              </button>
-              <button className="bg-green-400 w-full rounded-md">
-                <a href="https://github.com/ChrisPY-31/TvMovies" target="_blank">Git Hud</a>
-              </button>
-            </div>
-          </div>
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>
