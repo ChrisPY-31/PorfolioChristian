@@ -56,7 +56,7 @@ const Navegation = ({ theme, handleChangeTheme }) => {
         </h2>
         <div className="flex gap-8 justify-center items-center">
           <ul className="flex gap-8 cursor-pointer font-[Roboto] font-[400] max-sm:text-[12px] max-sm:gap-4 max-md:text-[12px] items-center max-lg:gap-4">
-            <li onClick={() => handleClick(0)}>Home</li>
+            <li onClick={() => handleClick(0)}>Inicio</li>
             <li onClick={() => handleClick(1)}>Sobre mi </li>
             <li onClick={() => handleClick(2)}>Proyectos</li>
             <li onClick={() => handleClick(3)}>Tecnologias</li>

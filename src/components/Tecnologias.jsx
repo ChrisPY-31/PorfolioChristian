@@ -17,13 +17,13 @@ import { fadeIn } from "../variants";
 const Tecnologias = () => {
   return (
     <section className="min-h-[90vh] flex flex-col justify-center items-center py-4">
-      <div className="w-[80%] mx-auto h-full text-white  max-sm:w-[90%] ">
+      <div className="w-[80%] mx-auto h-full   max-sm:w-[90%] ">
         <motion.h2
         variants={fadeIn("right", 0.2)}
         initial={{ opacity: 0 }}
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }} 
-        className="text-white font-[Lato] font-[900] text-5xl max-sm:text-2xl max-sm:text-center max-lg:text-3xl">
+        className="dark:text-white font-[Lato] font-[900] text-5xl max-sm:text-2xl max-sm:text-center max-lg:text-3xl">
           Tecnologias
         </motion.h2>
         <div 
@@ -146,7 +146,7 @@ const Tecnologias = () => {
             <SiPostgresql className="text-3xl" />
             <div className="mt-2">
               <h4 className="font-[Roboto] font-[400]">POSTGRESQl</h4>
-              <span className="text-[#9f9fa8]">Bases de datos relaciona</span>
+              <span className="text-[#9f9fa8]">Bases de datos relacional</span>
             </div>
           </motion.div>
           <motion.div 

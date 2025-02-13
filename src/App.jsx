@@ -8,31 +8,28 @@ import Proyectos from "./components/Proyectos";
 import Tecnologias from "./components/Tecnologias";
 import { useEffect, useState } from "react";
 function App() {
-
-  const [theme , setTheme] = useState(() =>{
-    if(window.matchMedia('(prefers-color-scheme:dark)').matches){
-      return "dark"
+  const [theme, setTheme] = useState(() => {
+    if (window.matchMedia("(prefers-color-scheme:dark)").matches) {
+      return "dark";
     }
-    return "light"
-  })
+    return "light";
+  });
 
-  console.log(theme)
-  const handleChangeTheme = () =>{
-    setTheme(prevTheme => prevTheme === "light" ? "dark" : "light")
-  }
+  const handleChangeTheme = () => {
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+  };
 
-  useEffect(() =>{
-    if(theme === "dark"){
-      document.querySelector('html').classList.add('dark')
+  useEffect(() => {
+    if (theme === "dark") {
+      document.querySelector("html").classList.add("dark");
+    } else {
+      document.querySelector("html").classList.remove("dark");
     }
-    else{
-      document.querySelector('html').classList.remove('dark')
-    }
-  },[theme])
+  }, [theme]);
   return (
     <>
-      <Navegation theme={theme} handleChangeTheme={handleChangeTheme}/>
-      <Inicio theme={theme} handleChangeTheme={handleChangeTheme}/>
+      <Navegation theme={theme} handleChangeTheme={handleChangeTheme} />
+      <Inicio theme={theme} handleChangeTheme={handleChangeTheme} />
       <AboutMe />
       <Proyectos />
       <Tecnologias />

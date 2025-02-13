@@ -23,16 +23,14 @@ const AboutMe = () => {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
           className="dark:text-white flex flex-col justify-evenly py-4">
-            <h3 className="text-5xl font-[Lato] font-[700] w-[60%] leading-[1.2] max-sm:w-[90%] max-sm:text-2xl max-lg:text-3xl">
-              I'm Christian Peña Yañez
-            </h3>
+            
             <p className="text-[#a7a8a9] font-[Roboto] font-[300] max-sm:my-2">
-              Desarrollador Front end
+              Ingeniero de Sotfware
             </p>
-            <p className="font-[Roboto] font-[300] max-lg:my-2">
-              Me encanta aprender y enseñar sobre la tecnologia. Me apasiona el
+            <p className="font-[Roboto] font-[300] max-lg:my-2 lg:my-2">
+              Entusiasta por el mundo de la tecnologia. Me apasiona el
               desarrollo web he trabajado en multiples proyectos personales,
-              busco mi primer oportunidad laboral
+              Estoy en busca de mi primer oportunidad que me llevar mis conocimientos al siguiente nivel 
             </p>
 
             <button

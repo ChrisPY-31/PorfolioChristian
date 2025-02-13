@@ -61,7 +61,7 @@ const Contacto = () => {
             </div>
             <div>
               <p className="font-[Roboto] font-[700]">Telefono</p>
-              <p className="text-[#a7a8a9]">713-120-4197</p>
+              <p className="text-[#a7a8a9]">720-560-1502</p>
             </div>
           </div>
           <a className="dark:bg-[#1a2123] border-[#333c43] dark:border-2 py-2 w-[40%] rounded-lg text-center cursor-pointer dark:hover:bg-[#151a1b] max-sm:w-[80%] max-sm:mx-auto  shadow-lg  dark:text-white text-black font-[Roboto] font-[400]"

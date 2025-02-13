@@ -9,10 +9,10 @@ const Proyectos = () => {
     <section className="min-h-[90vh]">
       <div className="w-[80%] mx-auto h-full max-sm:w-[90%] max-lg:w-[90%]">
         <motion.h2
-          variants={fadeIn("down", 0.2)}
+          variants={fadeIn("right", 0.2)}
           initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: false, amount: 0.5 }}
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }} 
           className="text-5xl dark:text-white font-[Lato] font-[900] max-sm:text-2xl max-lg:text-center max-lg:text-3xl "
         >
           Proyectos
