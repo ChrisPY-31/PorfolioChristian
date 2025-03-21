@@ -1,14 +1,13 @@
 import React from "react";
 import { FaHtml5 } from "react-icons/fa6";
-import { FaCss3Alt, FaReact, FaNode } from "react-icons/fa";
+import { FaCss3Alt, FaReact,FaJava} from "react-icons/fa";
+import { BiLogoSpringBoot } from "react-icons/bi";
 import { IoLogoJavascript } from "react-icons/io5";
 import {
   SiRedux,
   SiTailwindcss,
-  SiExpress,
-  SiSequelize,
-  SiTypescript,
   SiPostgresql,
+  SiSpringboot
 } from "react-icons/si";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -38,7 +37,7 @@ const Tecnologias = () => {
             <FaHtml5 className="text-3xl"></FaHtml5>
             <div className="mt-2">
               <h4 className="font-[Roboto] font-[400]">HTML</h4>
-              <span className="text-[#9f9fa8]">lenguajes de marcas hipertexto</span>
+              <span className="text-[#9f9fa8]">Lenguajes de marcas hipertexto</span>
             </div>
           </motion.div>
           <motion.div 
@@ -62,7 +61,7 @@ const Tecnologias = () => {
             <SiTailwindcss className="text-3xl" />
             <div className="mt-2">
               <h4 className="font-[Roboto] font-[400]">TAILWIND CSS</h4>
-              <span className="text-[#9f9fa8]">framework de CSS</span>
+              <span className="text-[#9f9fa8]">Framework de CSS</span>
             </div>
           </motion.div>
           <motion.div 
@@ -107,10 +106,10 @@ const Tecnologias = () => {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
           className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
-            <FaNode className="text-3xl" />
+            <FaJava className="text-3xl" />
             <div className="mt-2">
-              <h4 className="font-[Roboto] font-[400]">NODE.JS</h4>
-              <span className="text-[#9f9fa8]">Entorno de Ejecucion</span>
+              <h4 className="font-[Roboto] font-[400]">JAVA</h4>
+              <span className="text-[#9f9fa8]">Lenguaje de programación</span>
             </div>
           </motion.div>
           <motion.div 
@@ -119,10 +118,10 @@ const Tecnologias = () => {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
           className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
-            <SiTypescript className="text-3xl" />
+            <SiSpringboot className="text-3xl" />
             <div className="mt-2">
-              <h4 className="font-[Roboto] font-[400]">TYPESCRIPT</h4>
-              <span className="text-[#9f9fa8]">Agrega funcionalidad a javaScript</span>
+              <h4 className="font-[Roboto] font-[400]">Spring boot</h4>
+              <span className="text-[#9f9fa8]">Framework de java </span>
             </div>
           </motion.div>
           <motion.div 
@@ -131,10 +130,10 @@ const Tecnologias = () => {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
           className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
-            <SiExpress className="text-3xl" />
+            <BiLogoSpringBoot className="text-3xl" />
             <div className="mt-2">
-              <h4 className="font-[Roboto] font-[400]">EXPRESS</h4>
-              <span className="text-[#9f9fa8]">Web framework para Node.js</span>
+              <h4 className="font-[Roboto] font-[400]">Spring Security</h4>
+              <span className="text-[#9f9fa8]">Framework de java</span>
             </div>
           </motion.div>
           <motion.div 
@@ -149,18 +148,7 @@ const Tecnologias = () => {
               <span className="text-[#9f9fa8]">Bases de datos relacional</span>
             </div>
           </motion.div>
-          <motion.div 
-          variants={fadeIn("right", 0.2)}
-          initial={{ opacity: 0 }}
-          whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
-          className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
-            <SiSequelize className="text-3xl" />
-            <div className="mt-2">
-              <h4 className="font-[Roboto] font-[400]">SEQUELIZE</h4>
-              <span className="text-[#9f9fa8]">Simplifica el proceso de creación</span>
-            </div>
-          </motion.div>
+        
         </div>
       </div>
     </section>

@@ -30,7 +30,7 @@ const Contacto = () => {
             </div>
             <div>
               <p className="font-[Roboto] font-[700]">Ubicación</p>
-              <p className="text-[#a7a8a9]">Santiago Tianguistenco</p>
+              <p className="text-[#a7a8a9]">Toluca de Lerdo</p>
             </div>
           </div>
           <div className="flex gap-8 ">
