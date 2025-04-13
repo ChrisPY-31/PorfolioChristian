@@ -3,6 +3,7 @@ import ImagenLogo from "../Images/TvMovies2.png";
 import Mode from "./Mode";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import cvChristian from "../assets/Curriculum_ChristianPeña_moderno_6.0.pdf";
 const Inicio = ({ theme, handleChangeTheme }) => {
   return (
     <main
@@ -44,7 +45,7 @@ const Inicio = ({ theme, handleChangeTheme }) => {
             Christian Peña Yañez
           </h1>
           <p className="font-[Roboto] font-[300] max-sm:my-2">
-            Programador Front-end con experiencia trabajando con tecnologias como JavaScript , React , Redux , Node y Express
+            Programador full stack trabajando con tecnologias como javaScript React, Spring boot
           </p>
           <div className="flex gap-4 text-white max-sm:justify-center">
             <a
@@ -56,6 +57,8 @@ const Inicio = ({ theme, handleChangeTheme }) => {
               Linkedin
             </a>
             <a
+              href={cvChristian}
+              download={cvChristian}
               className="py-2 px-9 rounded-md bg-[#1a2123] border-[#333c43]  
                     border-2 dark:hover:bg-transparent font-[Roboto] font-[400]
                     cursor-pointer"

@@ -5,14 +5,14 @@ export const proyectos = [
     title: "Grano de Oro",
     subtitle: [" Front-End " , " Back-End "],
     description:
-      "E-commerce para la venta de cafe. este proyecto tuvo la finalidad de poner en practica todos nuestro conocimientos para enfrentar los desafios que podemos entrentar a futuro en una empresa simulando un ambiente laboral y colaboracion con un equipo de trabajo",
+      "E-commerce para la venta de cafe. Es una aplicacino que nos permite visualizar los productos que se venden en la tienda, asi mismo poder comprarlos y ver el detalle de cada uno de ellos",
     image: `${granoDeOro}`,
     technologies: [
-      "JavaScript",
-      "React",
-      "Redux",
-      "Express",
-      "Sequelize",
+      "JavaScript ",
+      "React ",
+      "Redux ",
+      "Express ",
+      "Sequelize ",
       "Node",
     ],
     deploid: {
@@ -26,9 +26,9 @@ export const proyectos = [
     description:
       "E-commerce para la venta de cafe. este proyecto tuvo la finalidad de poner en practica todos nuestro conocimientos para enfrentar los desafios que podemos entrentar a ",
     image: `${tvMovies}`,
-    technologies: ["JavaScript", "Tailwind", "React", "Redux", "Java" , "Spring-Boot"],
+    technologies: ["JavaScript", " Tailwind", " React", " Redux", " Java" , " Spring-Boot"],
     deploid: {
-      gitHud: "https://github.com/ChrisPY-31/TvMovies",
+      gitHud: "https://github.com/ChrisPY-31/Backend",
       deploy: "",
     },
   },
@@ -38,11 +38,11 @@ export const proyectos = [
     description:
       "Video Games es una aplicacion en el cual nos permite visualizar peliculas asi mismo crear una pelicula a su gusto ",
     technologies: [
-      "JavaScript",
-      "React",
-      "Redux",
-      "Express",
-      "Sequelize",
+      "JavaScript ",
+      "React ",
+      "Redux ",
+      "Express ",
+      "Sequelize ",
       "Node",
     ],
     image:

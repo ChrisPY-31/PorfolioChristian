@@ -40,10 +40,10 @@ const Navegation = ({ theme, handleChangeTheme }) => {
   };
   return (
     <motion.nav
-      initial={{opacity:0}}
-      whileInView={{opacity:1}}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
       transition={{ duration: 2 }}
-      
+
       className="fixed w-full contenedor z-50 max-sm:bottom-0  "
     >
       <div

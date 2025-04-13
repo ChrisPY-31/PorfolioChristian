@@ -31,7 +31,7 @@ const Proyectos = () => {
                   {proyecto.title}
                 </h3>
                 <div>
-                  {proyecto.subtitle.map((tecnologia) => (
+                  {proyecto.technologies.map((tecnologia) => (
                     <span className="text-[#a7a8a9] font-[Roboto] font-[300]  ">
                       {tecnologia}
                     </span>
