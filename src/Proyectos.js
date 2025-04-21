@@ -24,7 +24,7 @@ export const proyectos = [
     title: "Gestion de Productos",
     subtitle: [" Front-End " , " Back-End "],
     description:
-      "E-commerce para la venta de cafe. este proyecto tuvo la finalidad de poner en practica todos nuestro conocimientos para enfrentar los desafios que podemos entrentar a ",
+      "Aplicacion para la venta de productos de supermercado. Es una aplicacino que nos permite visualizar los productos que se venden en la tienda, asi mismo poder comprarlos y ver el detalle de cada uno de ellos",
     image: `${tvMovies}`,
     technologies: ["JavaScript", " Tailwind", " React", " Redux", " Java" , " Spring-Boot"],
     deploid: {

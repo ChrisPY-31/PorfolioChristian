@@ -12,7 +12,7 @@ const Proyectos = () => {
           variants={fadeIn("right", 0.2)}
           initial={{ opacity: 0 }}
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }} 
+          viewport={{ once: false, amount: 0.7 }}
           className="text-5xl dark:text-white font-[Lato] font-[900] max-sm:text-2xl max-lg:text-center max-lg:text-3xl "
         >
           Proyectos
@@ -68,6 +68,17 @@ const Proyectos = () => {
             </motion.div>
           ))}
         </div>
+        <motion.div
+          className="flex justify-center items-center mt-10"
+          variants={fadeIn("right", 0.2)}
+          initial={{ opacity: 0 }}
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}>
+          <button className="py-2 px-9 rounded-md bg-[#1a2123] border-[#333c43]  
+                    border-2 dark:hover:bg-transparent font-[Roboto] font-[400] max-md:px-5 text-white">
+            <a href="https://github.com/ChrisPY-31" target="_blank">Ver mas</a>
+          </button>
+        </motion.div>
       </div>
     </section>
   );
