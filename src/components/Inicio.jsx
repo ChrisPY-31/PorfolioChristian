@@ -4,6 +4,7 @@ import Mode from "./Mode";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import cvChristian from "../assets/Curriculum_ChristianPeña_moderno_6.0.pdf";
+import imagenChristian from "../Images/ChristianImagenPrincipal.jpg";
 const Inicio = ({ theme, handleChangeTheme }) => {
   return (
     <main
@@ -23,8 +24,8 @@ const Inicio = ({ theme, handleChangeTheme }) => {
           initial={{ opacity: 0 }}
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          src={`${ImagenLogo}`}
-          className="w-[750px] h-[350px] rounded-2xl max-sm:rounded-full max-sm:w-[150px] max-sm:h-[150px] max-md:w-[220px] max-md:h-[220px] max-lg:h-[250px] "
+          src={`${imagenChristian}`}
+          className="w-[750px] h-[350px] rounded-2xl max-sm:rounded-full max-sm:w-[150px] max-sm:h-[150px] max-md:w-[220px] max-md:h-[220px] max-lg:h-[250px] object-fill"
           alt=""
         />
         <motion.div

@@ -3,6 +3,7 @@ import Imagen from "../Images/Oro.jpeg";
 import { LiaExternalLinkSquareAltSolid } from "react-icons/lia";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import imagenChristianSecundaria from "../Images/ChristianImagenSecundaria.jpg";
 
 const AboutMe = () => {
   return (
@@ -35,7 +36,7 @@ const AboutMe = () => {
             <div>
               <h4 >Estudios</h4>
               <p className="text-[#a7a8a9]">
-                Ingeniero de software <br/>
+                Ingeniero de software <br />
                 Unidad Academica Profesional de Tianguistenco – UAEMex
               </p>
             </div>
@@ -55,9 +56,8 @@ const AboutMe = () => {
             viewport={{ once: false, amount: 0.7 }}
             className="flex justify-center items-center max-sm:order-first">
             <img
-              src={`${Imagen}`}
-              className="max-md:w-full max-md:h-[250px]  rounded-2xl max-sm:w-[150px] max-sm:h-[150px] max-sm:rounded-full max-sm:mx-auto max-lg:h-[250px] w-[750px] h-[350px]
-            "
+              src={`${imagenChristianSecundaria}`}
+              className="max-md:w-full max-md:h-[250px]  rounded-2xl max-sm:w-[150px] max-sm:h-[150px] max-sm:rounded-full max-sm:mx-auto max-lg:h-[250px] w-[750px] h-[350px] object-fill"
               alt=""
             />
           </motion.div>
