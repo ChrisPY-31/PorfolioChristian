@@ -120,7 +120,7 @@ const Tecnologias = () => {
           className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
             <SiSpringboot className="text-3xl" />
             <div className="mt-2">
-              <h4 className="font-[Roboto] font-[400]">Spring boot</h4>
+              <h4 className="font-[Roboto] font-[400]">SPRING BOOT</h4>
               <span className="text-[#9f9fa8]">Framework de java </span>
             </div>
           </motion.div>
@@ -132,7 +132,7 @@ const Tecnologias = () => {
           className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
             <BiLogoSpringBoot className="text-3xl" />
             <div className="mt-2">
-              <h4 className="font-[Roboto] font-[400]">Spring Security</h4>
+              <h4 className="font-[Roboto] font-[400]">SPRING SECURITY</h4>
               <span className="text-[#9f9fa8]">Framework de java</span>
             </div>
           </motion.div>
