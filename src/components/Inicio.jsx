@@ -46,7 +46,7 @@ const Inicio = ({ theme, handleChangeTheme }) => {
             Christian Peña Yañez
           </h1>
           <p className="font-[Roboto] font-[300] max-sm:my-2">
-            Programador full stack trabajando con tecnologias como javaScript React, Spring boot
+            Programador full stack trabajando con tecnologias como JavaScript React, Spring boot
           </p>
           <div className="flex gap-4 text-white max-sm:justify-center">
             <a
