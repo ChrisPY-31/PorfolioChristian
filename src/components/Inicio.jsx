@@ -1,10 +1,11 @@
 import React from "react";
-import ImagenLogo from "../Images/TvMovies2.png";
 import Mode from "./Mode";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import cvChristian from "../assets/Curriculum_ChristianPeña_moderno_6.0.pdf";
+import cvChristianActualizado from "../assets/CvChristianPY.pdf";
 import imagenChristian from "../Images/ChristianImagenPrincipal.jpg";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdDownload } from "react-icons/md";
 const Inicio = ({ theme, handleChangeTheme }) => {
   return (
     <main
@@ -12,7 +13,7 @@ const Inicio = ({ theme, handleChangeTheme }) => {
     max-sm:block max-lg:h-[55vh]  
     "
     >
-      <h2 className="dark:text-white text-5xl font-[Lato] font-[900] max-sm:text-2xl max-sm:text-center hidden max-sm:block pt-2">
+      <h2 className="text-5xl font-[Lato] font-[900] max-sm:text-2xl max-sm:text-center hidden max-sm:block pt-2">
         Christian Peña Yañez
       </h2>
       <div className="md:hidden absolute right-2 top-2.5">
@@ -29,7 +30,7 @@ const Inicio = ({ theme, handleChangeTheme }) => {
           alt=""
         />
         <motion.div
-          className="dark:text-white flex flex-col justify-around py-3  max-md:py-0"
+          className="flex flex-col justify-around py-3 max-md:py-0"
           variants={fadeIn("left", 0.2)}
           initial={{ opacity: 0 }}
           whileInView={"show"}
@@ -46,25 +47,34 @@ const Inicio = ({ theme, handleChangeTheme }) => {
             Christian Peña Yañez
           </h1>
           <p className="font-[Roboto] font-[300] max-sm:my-2">
-            Programador full stack trabajando con tecnologias como JavaScript React, Spring boot
+            Programador full stack trabajando con tecnologías como JavaScript, React y Spring Boot
           </p>
-          <div className="flex gap-4 text-white max-sm:justify-center">
+          <div className="flex gap-4 max-sm:justify-center flex-wrap">
             <a
-              className="py-2 px-9 rounded-md dark:border-[#333c43] dark:border-2 font-[Roboto] font-[400] dark:hover:bg-[#1a2123] text-black dark:text-white shadow-md cursor-pointer 
-            "
-            href="https://www.linkedin.com/in/christianpeya01/"
-            target="_blank"
+              className="py-2 px-6 rounded-md dark:border-[#333c43] dark:border-2 font-[Roboto] font-[400] dark:hover:bg-[#1a2123] shadow-md cursor-pointer flex items-center gap-2"
+              href="https://www.linkedin.com/in/christianpeya01/"
+              target="_blank"
             >
-              Linkedin
+              <FaLinkedin className="text-xl" />
+              LinkedIn
             </a>
             <a
-              href={cvChristian}
-              download={cvChristian}
-              className="py-2 px-9 rounded-md bg-[#1a2123] border-[#333c43]  
-                    border-2 dark:hover:bg-transparent font-[Roboto] font-[400]
-                    cursor-pointer"
+              className="py-2 px-6 rounded-md dark:border-[#333c43] dark:border-2 font-[Roboto] font-[400] dark:hover:bg-[#1a2123] shadow-md cursor-pointer flex items-center gap-2"
+              href="https://github.com/ChrisPY-31"
+              target="_blank"
             >
-              Descargar Cv
+              <FaGithub className="text-xl" />
+              GitHub
+            </a>
+            <a
+              href={cvChristianActualizado}
+              download
+              className="py-2 px-6 rounded-md bg-[#1a2123] border-[#333c43]
+                    border-2 dark:hover:bg-transparent font-[Roboto] font-[400]
+                    cursor-pointer flex items-center gap-2 text-white"
+            >
+              <MdDownload className="text-xl" />
+              Descargar CV
             </a>
           </div>
         </motion.div>

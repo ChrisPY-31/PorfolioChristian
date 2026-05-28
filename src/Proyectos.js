@@ -1,6 +1,7 @@
 import tvMovies from "./Images/TvMovies2.png";
 import granoDeOro from "./Images/Oro.jpeg";
 import UniConnect from "./Images/fotoUniConnect.jpeg";
+import NexusTech from './Images/ImagenCursos.jpeg'
 export const proyectos = [
   {
     title: "UniConnect",
@@ -27,7 +28,7 @@ export const proyectos = [
     title: "Grano de Oro",
     subtitle: [" Front-End ", " Back-End "],
     description:
-      "E-commerce para la venta de cafe. Es una aplicacino que nos permite visualizar los productos que se venden en la tienda, asi mismo poder comprarlos y ver el detalle de cada uno de ellos",
+      "E-commerce para la venta de café. Es una aplicación que nos permite visualizar los productos que se venden en la tienda, así mismo poder comprarlos y ver el detalle de cada uno de ellos",
     image: `${granoDeOro}`,
     technologies: [
       "JavaScript ",
@@ -43,22 +44,24 @@ export const proyectos = [
     },
   },
   {
-    title: "Gestion de Productos",
+    title: "Nexus Tech UAEMEX",
     subtitle: [" Front-End ", " Back-End "],
     description:
-      "Aplicacion para la venta de productos de supermercado. Es una aplicacino que nos permite visualizar los productos que se venden en la tienda, asi mismo poder comprarlos y ver el detalle de cada uno de ellos",
-    image: `${tvMovies}`,
+      "Nexus Tech un sistema de cursos de especialización para los estudiantes del Centro Universitario UAEMex Tiaguistenco, que ayudara cientos de estudiantes a especializarse en las ramas de su interes.",
+    image: `${NexusTech}`,
     technologies: [
       "JavaScript",
       " Tailwind",
       " React",
       " Redux",
       " Java",
-      " Spring-Boot ",
-      "PostgreSql",
+      " Spring-Boot",
+      " Spring-Security",
+      " JWT",
+      " PostgreSql",
     ],
     deploid: {
-      gitHud: "https://github.com/ChrisPY-31/Backend",
+      gitHud: "https://github.com/ChrisPY-31/UniversityTech",
       deploy: "",
     },
   },

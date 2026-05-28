@@ -29,12 +29,12 @@ function App() {
   return (
     <>
       <Navegation theme={theme} handleChangeTheme={handleChangeTheme} />
-      <Inicio theme={theme} handleChangeTheme={handleChangeTheme} />
-      <AboutMe />
-      <Proyectos />
-      <Tecnologias />
-      <Contacto></Contacto>
-      <Footer></Footer>
+      <div id="inicio"><Inicio theme={theme} handleChangeTheme={handleChangeTheme} /></div>
+      <div id="sobre-mi"><AboutMe /></div>
+      <div id="proyectos"><Proyectos /></div>
+      <div id="tecnologias"><Tecnologias /></div>
+      <div id="contacto"><Contacto /></div>
+      <Footer />
     </>
   );
 }

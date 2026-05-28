@@ -22,8 +22,8 @@ const Tecnologias = () => {
         initial={{ opacity: 0 }}
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }} 
-        className="dark:text-white font-[Lato] font-[900] text-5xl max-sm:text-2xl max-sm:text-center max-lg:text-3xl">
-          Tecnologias
+        className="font-[Lato] font-[900] text-5xl max-sm:text-2xl max-sm:text-center max-lg:text-3xl">
+          Tecnologías
         </motion.h2>
         <div 
         
@@ -33,7 +33,7 @@ const Tecnologias = () => {
           initial={{ opacity: 0 }}
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
+          className=" h-[150px] p-3 dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg">
             <FaHtml5 className="text-3xl"></FaHtml5>
             <div className="mt-2">
               <h4 className="font-[Roboto] font-[400]">HTML</h4>
@@ -45,7 +45,7 @@ const Tecnologias = () => {
           initial={{ opacity: 0 }}
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
+          className=" h-[150px] p-3 dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg">
             <FaCss3Alt className="text-3xl" />
             <div className="mt-2">
               <h4 className="font-[Roboto] font-[400]">CSS</h4>
@@ -57,7 +57,7 @@ const Tecnologias = () => {
           initial={{ opacity: 0 }}
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
+          className=" h-[150px] p-3 dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg">
             <SiTailwindcss className="text-3xl" />
             <div className="mt-2">
               <h4 className="font-[Roboto] font-[400]">TAILWIND CSS</h4>
@@ -69,10 +69,10 @@ const Tecnologias = () => {
           initial={{ opacity: 0 }}
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
+          className=" h-[150px] p-3 dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg">
             <IoLogoJavascript className="text-3xl" />
             <div className="mt-2">
-              <h4 className="font-[Roboto] font-[400]">JAVACRIPT</h4>
+              <h4 className="font-[Roboto] font-[400]">JAVASCRIPT</h4>
               <span className="text-[#9f9fa8]">Lenguaje javaScript</span>
             </div>
           </motion.div>
@@ -81,11 +81,11 @@ const Tecnologias = () => {
           initial={{ opacity: 0 }}
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
+          className=" h-[150px] p-3 dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg">
             <FaReact className="text-3xl" />
             <div className="mt-2">
               <h4 className="font-[Roboto] font-[400]">REACT</h4>
-              <span className="text-[#9f9fa8]">Bibloteca de javaScript</span>
+              <span className="text-[#9f9fa8]">Biblioteca de javaScript</span>
             </div>
           </motion.div>
           <motion.div 
@@ -93,7 +93,7 @@ const Tecnologias = () => {
           initial={{ opacity: 0 }}
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
+          className=" h-[150px] p-3 dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg">
             <SiRedux className="text-3xl" />
             <div className="mt-2">
               <h4 className="font-[Roboto] font-[400]">REDUX</h4>
@@ -105,7 +105,7 @@ const Tecnologias = () => {
           initial={{ opacity: 0 }}
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
+          className=" h-[150px] p-3 dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg">
             <FaJava className="text-3xl" />
             <div className="mt-2">
               <h4 className="font-[Roboto] font-[400]">JAVA</h4>
@@ -117,7 +117,7 @@ const Tecnologias = () => {
           initial={{ opacity: 0 }}
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
+          className=" h-[150px] p-3 dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg">
             <SiSpringboot className="text-3xl" />
             <div className="mt-2">
               <h4 className="font-[Roboto] font-[400]">SPRING BOOT</h4>
@@ -129,7 +129,7 @@ const Tecnologias = () => {
           initial={{ opacity: 0 }}
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
+          className=" h-[150px] p-3 dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg">
             <BiLogoSpringBoot className="text-3xl" />
             <div className="mt-2">
               <h4 className="font-[Roboto] font-[400]">SPRING SECURITY</h4>
@@ -141,10 +141,10 @@ const Tecnologias = () => {
           initial={{ opacity: 0 }}
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className=" h-[150px] p-3  dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg text-black dark:text-white">
+          className=" h-[150px] p-3 dark:bg-[#1a2123] dark:border-[#333c43] dark:border-2 shadow-lg rounded-lg">
             <SiPostgresql className="text-3xl" />
             <div className="mt-2">
-              <h4 className="font-[Roboto] font-[400]">POSTGRESQl</h4>
+              <h4 className="font-[Roboto] font-[400]">POSTGRESQL</h4>
               <span className="text-[#9f9fa8]">Bases de datos relacional</span>
             </div>
           </motion.div>
